@@ -2,14 +2,14 @@
 
 args := Smalltalk arguments.
 args isEmpty ifTrue: [
-    'Usage: smallcalc "1+1"' displayNl.
+    'Usage: sc 1+"' displayNl.
     ObjectMemory quit.
 ].
 
 cmd := args first.
 
 (cmd = 'help') ifTrue: [
-    'Usage: sc "1+1"' displayNl.
+    'Usage: sc 1+1' displayNl.
     ObjectMemory quit.
 ].
 
