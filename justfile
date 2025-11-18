@@ -1,0 +1,2 @@
+r:
+	gst main.st
